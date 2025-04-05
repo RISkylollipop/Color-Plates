@@ -1,0 +1,77 @@
+.main{
+    background-image: url('../../../public/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.ColorDivContainer {
+    width: 90%;
+    height: 90vh;
+    border-radius: 10%;
+    margin: 40px auto;
+}
+
+.colorHeading {
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 2px;
+    filter: drop-shadow(0 0 10px purple);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btnContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    outline-color: bisque;
+}
+
+.items{
+    position: relative;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.items button{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .ColorDivContainer {
+        width: 60%;
+        height: 80vh;
+        border-radius: 20px;
+        margin: 40px auto;
+    }
+
+    .btnContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+}
