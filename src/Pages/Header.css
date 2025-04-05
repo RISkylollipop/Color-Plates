@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.logo {
+    margin-top: 15px;
+    font-family: 'Alex Brush', cursive;
+    font-size: 3rem;
+    line-height: 10px;
+    color: white;
+}
