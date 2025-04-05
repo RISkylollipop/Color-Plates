@@ -1,9 +1,7 @@
 .main{
-    background-image: url('/image.png');
+    background-image: url("https://w0.peakpx.com/wallpaper/48/752/HD-wallpaper-dark-arcana-the-carnival-darkarcana-carnival-artifexmundi-adventure-game-artifexmundi-darkarcana-circus-background-arcanum-anime-circus-scary-circus-thumbnail.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100%;
     background-position: center;
     padding-top: 20px;
   
@@ -11,7 +9,7 @@
 
 .ColorDivContainer {
     width: 90%;
-    height: 90vh;
+    height: 70%;
     border-radius: 10%;
     margin: 10px auto;
 }
