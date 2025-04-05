@@ -63,7 +63,7 @@ const ColorCode = () => {
         textarea.select();
         document.execCommand('copy');
         document.body.removeChild(textarea);
-        toast.success(`${color} Copied to ClipBoard`)
+        toast.success(`${color} \n Copied to ClipBoard`)
 
     };
 
