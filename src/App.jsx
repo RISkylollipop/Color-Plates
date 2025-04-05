@@ -4,19 +4,20 @@ import Home from './Pages/Header';
 import About from './Pages/About';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
+import Footer from './Pages/Footer'
 
 
 function App() {
   return (
     <>
-    <Home/>
-      <Routes>
-        <Route path='/' element={<ColorCode />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-
+      <Home />
+        <Routes>
+          <Route path='/' element={<ColorCode />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      <Footer />
     </>
   )
 }

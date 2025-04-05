@@ -63,7 +63,9 @@ const ColorCode = () => {
         textarea.select();
         document.execCommand('copy');
         document.body.removeChild(textarea);
-        toast.success(`${color} \n Copied to ClipBoard`)
+        toast.success(
+            <span style={{textAlign: "center"}}>{color} <br /> <br /> Copied to ClipBoard</span>
+          );
 
     };
 
