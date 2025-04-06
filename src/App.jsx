@@ -14,9 +14,9 @@ function App() {
       <Home />
         <Routes>
           <Route path='/' element={<ColorCode />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       <Footer />
     </>
