@@ -99,7 +99,7 @@ const ColorCode = () => {
                     <h3>{color}</h3>
 
                     <ToastContainer
-                        position="bottom-center"
+                        position="top-right"
                         toastClassName="custom-toast"
                         closeOnClick
                         pauseOnHover
