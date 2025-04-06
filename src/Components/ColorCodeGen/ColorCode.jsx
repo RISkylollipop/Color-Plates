@@ -64,7 +64,7 @@ const ColorCode = () => {
         document.execCommand('copy');
         document.body.removeChild(textarea);
         toast.success(
-            <span style={{textAlign: "center"}}>{color} <br /> <br /> Copied to ClipBoard</span>
+            <span className={styles.toastContainer}>{color} <br /> <br /> Copied to ClipBoard</span>
           );
 
     };
@@ -76,9 +76,9 @@ const ColorCode = () => {
 
                 <h3 className={styles.colorHeading} style={{ textAlign: "center" }}>CirCus Color Code</h3>
                 <div className={styles.btnContainer}>
-                    <button onClick={() => setColortype('HEX')}>HEX COLOR</button>
-                    <button onClick={() => setColortype('HSL')}>HSL COLOR</button>
-                    <button onClick={() => setColortype('RGB')}>RGB COLOR</button>
+                    <button onClick={() => setColortype('HEX')}>HEX CODE</button>
+                    <button onClick={() => setColortype('RGB')}>RGB CODE</button>
+                    <button onClick={() => setColortype('HSL')}>HSL CODE</button>
 
                     <button
                         onClick={() => {
@@ -103,7 +103,8 @@ const ColorCode = () => {
                         toastClassName="custom-toast"
                         closeOnClick
                         pauseOnHover
-                        draggable />
+                        draggable 
+                        className={styles.toastContainer}/>
 
 
                     {/* Button to copy color to clipboard */}

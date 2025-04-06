@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {

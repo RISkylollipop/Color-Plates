@@ -1,23 +1,16 @@
-.main{
-    background-image: url("https://w0.peakpx.com/wallpaper/48/752/HD-wallpaper-dark-arcana-the-carnival-darkarcana-carnival-artifexmundi-adventure-game-artifexmundi-darkarcana-circus-background-arcanum-anime-circus-scary-circus-thumbnail.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top: 20px;
-  
-}
 
 .ColorDivContainer {
     width: 90%;
     height: 70%;
     border-radius: 10%;
     margin: 10px auto;
+    padding: 5px;
 }
 
 .colorHeading {
     text-align: center;
     font-family: 'Creepster', cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #ffffff;
     text-shadow: 2px 2px 4px black;
     letter-spacing: 2px;
@@ -29,6 +22,7 @@
 .btnContainer {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -51,11 +45,19 @@
 }
 
 .items button{
-    margin-top: 10px;
+    margin: 10px;
     padding: 10px;
     border-radius: 10px;
     border: none;
     outline-color: bisque;
+    
+}
+
+.toastContainer{
+    text-align: center;
+    line-height: 15px;
+    margin-left: 40px;
+    font-size: 18px;
 }
 
 @media screen and (min-width: 768px) {
@@ -74,5 +76,17 @@
         align-content: center;
         justify-content: space-between;
         padding: 10px;
+    }
+
+    .colorHeading {
+        text-align: center;
+        font-family: 'Creepster', cursive;
+        font-size: 20px;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px black;
+        letter-spacing: 2px;
+        filter: drop-shadow(0 0 10px purple);
+        cursor: pointer;
+        margin-bottom: 20px;
     }
 }

@@ -1,9 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
+.Navbar {
+  background-color: #343a40;
+  padding: 1.2rem 1rem;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.Navbar.scrolled {
+  background-color: #212529;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
 .logo {
-    margin-top: 15px;
-    font-family: 'Alex Brush', cursive;
-    font-size: 3rem;
-    line-height: 10px;
-    color: white;
+  font-family: 'Alex Brush', cursive;
+  font-style: italic;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.Navbar.scrolled .logo {
+  font-size: 1.6rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
 }

@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-image: url("https://w0.peakpx.com/wallpaper/48/752/HD-wallpaper-dark-arcana-the-carnival-darkarcana-carnival-artifexmundi-adventure-game-artifexmundi-darkarcana-circus-background-arcanum-anime-circus-scary-circus-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image in place on scroll */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Good contrast on dark background */
+  }
+  
