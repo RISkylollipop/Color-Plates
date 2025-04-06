@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import ColorCode from './Components/ColorCodeGen/ColorCode'
 import Home from './Pages/Header';
 import About from './Pages/About';
